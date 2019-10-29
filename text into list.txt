@@ -1,0 +1,12 @@
+import numpy as np
+text = "Here are some of the things you’ll find in NumPy:"
+l = text.split(" ")
+arr = np.array(text.split(" "))
+print(len(arr))
+#prn = print
+#rn("testing")
+#print(arr)
+lnth = np.vectorize(len)
+print(arr[lnth(arr)<5])
+#print(arr[ np.vectorize(len)(arr) <5]) 
+print()

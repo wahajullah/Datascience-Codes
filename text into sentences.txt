@@ -1,0 +1,4 @@
+import nltk
+tokenizer = nltk.tokenize.punkt.PunktSentenceTokenizer()
+txt = """ This is one sentence. This is another sentence."""
+tokenizer.tokenize(txt)
